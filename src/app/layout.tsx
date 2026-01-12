@@ -15,6 +15,28 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Lumina Advocacia | Excelência e Estratégia Jurídica",
   description: "Escritório de advocacia especializado em Direito Civil, Empresarial e Digital. Soluções jurídicas modernas e eficazes.",
+  openGraph: {
+    title: "Lumina Advocacia | Excelência e Estratégia Jurídica",
+    description: "Escritório de advocacia especializado em Direito Civil, Empresarial e Digital. Soluções jurídicas modernas e eficazes.",
+    url: "https://landing-advocacia-one.vercel.app", // Replacing with actual URL if known, or relative
+    siteName: "Lumina Advocacia",
+    images: [
+      {
+        url: "/images/preview-site.png",
+        width: 1200,
+        height: 630,
+        alt: "Lumina Advocacia Preview",
+      },
+    ],
+    locale: "pt_BR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Lumina Advocacia | Excelência e Estratégia Jurídica",
+    description: "Escritório de advocacia especializado em Direito Civil, Empresarial e Digital. Soluções jurídicas modernas e eficazes.",
+    images: ["/images/preview-site.png"],
+  },
 };
 
 export default function RootLayout({
