@@ -13,6 +13,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://landing-advocacia-one.vercel.app"),
   title: "Lumina Advocacia | Excelência e Estratégia Jurídica",
   description: "Escritório de advocacia especializado em Direito Civil, Empresarial e Digital. Soluções jurídicas modernas e eficazes.",
   openGraph: {
