@@ -23,7 +23,8 @@ export const metadata: Metadata = {
     siteName: "Lumina Advocacia",
     images: [
       {
-        url: "/images/preview-site.png",
+        // url: "/images/preview-site.png",
+        url: "https://i.ibb.co/xSVJqFcY/preview-site.png",
         width: 1200,
         height: 630,
         alt: "Lumina Advocacia Preview",
